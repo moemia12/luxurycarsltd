@@ -13,19 +13,74 @@ selectElement('.close').addEventListener('click', () => {
 });
 
 
+// POP UP BOXES WHEN HOMEPAGE IMAGES ARE CLICKED ON
 
-//Image Button
-
-document.getElementById('image-button').addEventListener('click', () =>{
-    document.querySelector('.bg-modal').style.display = 'flex';
+/////////////////////////////////////////////////////////////////////////////////////////
+//Image Button for White Bentley
+document.getElementById('image-button-whitebentley').addEventListener('click', () =>{
+    document.querySelector('.bg-modal-whitebentley').style.display = 'flex';
 });
 
-//Get close button
-let bgModal = document.getElementsByClassName('.bg-modal');
-let closeBtn = document.getElementsByClassName('.closeBtn')[0];
+//Get close button for White Bentley
+document.querySelector('.close-btn-whitebentley').addEventListener("click", function() {
+	document.querySelector('.bg-modal-whitebentley').style.display = "none";
+});
 
-closeBtn.addEventListener('click', closeModal);
+////////////////////////////////////////////////////////////////////////////////////////
+//Image Button for Blue SVR
+document.getElementById('image-button-bluesvr').addEventListener('click', () => {
+    document.querySelector('.bg-modal-bluesvr').style.display = 'flex';
+});
 
-function closeModal (){
-    bgModal.style.display = 'none';
-}
+//Get close button for Blue SVR
+document.querySelector('.close-btn-bluesvr').addEventListener("click", function() {
+	document.querySelector('.bg-modal-bluesvr').style.display = "none";
+});
+
+////////////////////////////////////////////////////////////////////////////////////////
+//Image Button for White S63
+
+document.getElementById('image-button-whites63').addEventListener('click', () => {
+    document.querySelector('.bg-modal-whites63').style.display = 'flex';
+});
+
+//Get close button for White S63
+
+document.querySelector('.close-btn-whites63').addEventListener('click', () => {
+    document.querySelector('.bg-modal-whites63').style.display = "none";
+})
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+document.getElementById('image-button-blackbentley').addEventListener('click', () => {
+    document.querySelector('.bg-modal-blackbentley').style.display = 'flex';
+});
+
+document.querySelector('.close-btn-blackbentley').addEventListener('click', () => {
+    document.querySelector('.bg-modal-blackbentley').style.display = "none";
+});
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+document.getElementById('image-button-whiterange').addEventListener('click', () => {
+    document.querySelector('.bg-modal-whiterange').style.display = 'flex';
+});
+
+document.querySelector('.close-btn-whiterange').addEventListener('click', () => {
+    document.querySelector('.bg-modal-whiterange').style.display = "none";
+});
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+document.getElementById('image-button-orangebentley').addEventListener('click', () => {
+    document.querySelector('.bg-modal-orangebentley').style.display = 'flex';
+});
+
+document.querySelector('.close-btn-orangebentley').addEventListener('click', () => {
+    document.querySelector('.bg-modal-orangebentley').style.display = "none";
+});
+
+////////////////////////////////////////////////////////////////////////////////////
+
+//Outside click to close popup box
+
