@@ -87,7 +87,7 @@ document.querySelector('.close-btn-orangebentley').addEventListener('click', () 
 //Toggle Booking Page for All cars //
 
 //////////////// White Bentley //
-document.getElementById('booking-button-whitebentley').addEventListener('click', () => {
+3document.getElementById('booking-button-whitebentley').addEventListener('click', () => {
     document.getElementById('car-info-whitebentley').style.display = 'none';
     document.getElementById('car-info-whitebentley').style.zIndex = '21';
 });
@@ -152,3 +152,5 @@ document.getElementById('back-btn-orangebentley').addEventListener('click', () =
     document.getElementById('car-info-orangebentley').style.zIndex = '23';
     
 });
+
+

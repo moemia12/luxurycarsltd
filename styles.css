@@ -938,7 +938,7 @@ footer{
 }
 
 .our-cars{
-    width: 80rem;
+    width: 80rem; 
     transition: 1.5s;
     overflow: hidden;
 }
@@ -1152,6 +1152,7 @@ label {
     opacity: 100;
     background-color: white;
     z-index: 23;
+    
 
 }
 
